@@ -1,5 +1,3 @@
-from ast import While
-from pprint import pprint
 from tkinter.tix import WINDOW
 from turtle import Screen, window_width
 import pygame
@@ -41,11 +39,11 @@ font_title = pygame.font.SysFont(None, 64)
 font_content = pygame.font.Font(None, 40)
 font_img = pygame.font.Font(None, 20)
 
-title_text = font_title.render('puzzle Game', True, BLACK)
+title_text = font_title.render('Puzzle Game', True, BLACK)
 title_rect = title_text.get_rect()
 title_rect.center = (WINDOW_WIDTH // 2, WINDOW_HEIGHT // 2 - 100)
 
-choose_text = font_content.render('choose Your Level', True, BLACK)
+choose_text = font_content.render('Choose Your Level', True, BLACK)
 choose_rect = choose_text.get_rect()
 choose_rect.center = (WINDOW_WIDTH//2, WINDOW_HEIGHT // 2 - 20)
 
